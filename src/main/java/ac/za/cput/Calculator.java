@@ -9,6 +9,13 @@ package ac.za.cput;
  *
  * @author CPUT
  */
-public class Calculator {
+public class Calculator 
+{
+    public static int addNumbers(int a, int b){
+        return a + b;
+    }
     
+    public static int subractNumbers(int a, int b){
+        return a - b;
+    }
 }
